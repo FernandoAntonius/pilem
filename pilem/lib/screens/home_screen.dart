@@ -84,7 +84,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 child: Padding(
                   padding: const EdgeInsets.all(8.0),
-                  child: Column(
+                  child: Column(    
                     children: [
                       Image.network(
                         'https://image.tmdb.org/t/p/w500${movie.posterPath}',
